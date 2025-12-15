@@ -1,7 +1,7 @@
 
 > 版本：v3.0
 >
-> 贡献者： &#x20;
+> 贡献者： 张浩远; Aiken
 >
 > 历史版本：
 >
@@ -31,7 +31,7 @@
 
 * 场景四：发起请假申请
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2EwZGU3ZDhhNWRjM2M5ZDE2NGM5ZTRjZjIyMDkwMjdfNkFZZVVOQ3FTM0tQTTlSejUzYk5lUGRWdFdKQ2RWRTFfVG9rZW46UnJEc2JaUjdnb3lRdUd4TEdLSmNEUGZEbjRmXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](image/1.gif)
 
 * 案例信息：[ 【未完成】请假助手](https://zxdwhda-share.feishu.cn/wiki/JEVRwfMnJiNO5PkuB3ncIDHsnfK)
 
@@ -43,27 +43,20 @@
 
 * 输出四张图片：
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=MmM4ZDhjMjBkNjc5MjhlN2RhZjdhMWZkMDhhNmZmMTZfS3pIRXBzTXhteVBuTG1ZZnJMR0JqR20yZ0RhVnVNYXJfVG9rZW46Wm13WGJaSlk3b05BSmt4dTBuMGNYek5OblJmXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
-
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=MTU1NWQ1MGQ0MDM3NzEyZTU5Mjc1ZmUxYWI3OWY4YWRfUVNUbXFMUlRHbkhwSzUxWGozNkw2d0pTMzF4dmpSdDFfVG9rZW46S09LdWJTU2tMb1NyZ0h4SU9IdGN1T3VmbnNkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
-
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDU3MWFiYjg3YzY3NDI0ODE3OGY3ODNiMDNiMzBiMGVfNWlYaGVkMzFWcmR3NkNtQzhSclVKV1lHZGNjWmpRVE9fVG9rZW46UElhYWIyR2ZNbzNTZHd4NFBjeWNMSDBqbnFkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
-
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDkxNWY4MTA5MGE0ZmFmZjQwNTkzZjA2NDY0ZDAzZjRfWFIxV3FlTXR2S1RTTUdUdTVBSnNmdGpMRE1KTU5UNmZfVG9rZW46SlRFRGJ2aU9Yb0MwZEx4RVQ4eWNlUlFNblpiXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](image/4images.png)
 
 工作流明细：
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=OTkzN2Q5NzZhMmUyMmZiYWFlYmJlYmFjN2M4MGM0ZTlfY1VqRDZnOUZUak5FRjBMTU9KSFJxR014M3ZyeUttenRfVG9rZW46TDdlOGJmYnFzb2l2cDJ4Sm5YT2NIcENIbnRkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](image/workflow.PNG)
 
 #### **案例三：矩阵视频生成**
 
-代表视频：
 
 比如第二解读书籍爆款短视频，单个视频最高 20 多万的点赞，该博主通过两个角色对话的方式解读一本书的短视频形式，仅仅只用了 18 个作品获得了 19.5 万粉丝，45.9 万点赞。
 
 参考：https://www.xiaohongshu.com/user/profile/5a93b6c1e8ac2b38b024d9f4
 
-![](/Course_Center/chapter1/image/1.gif)
+![](image/book_speaking.png)
 
 制作视频教程：
 
@@ -89,23 +82,21 @@
 
 3. 点开“二次元陪伴-支配恶魔”
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=NzNjYjU2ODMyYzEzY2IwYzYwOGE2NTU2YzU1YmVjYWNfSmlvSm1ZbjN3cnk2QkxTVHd5U1NzUW0zUklDTmU0Y1dfVG9rZW46VDRLUmJQN0l3b1o0bUZ4UkhvaGNIUHR4bjdkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](image/coze.png)
 
 挂断后进入第二张图片中的页面，点击复制右边
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=MjA0NDBkMmJiY2NmMTQ5MTA2ODI0Zjk1YTU5NWRiMWZfZTI3c3RvWkNuTURlS01qSk1ldXBWRzdabGw3R3BvZFVfVG9rZW46SUl6SmJ3SUx5bzl6U0F4bzRvSmNKSTNlbmJiXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
-
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTM4OWQxMGY3ZDVlMDY1Y2VkOGI0MWU3MjViYjMzNGNfTVFDclZQNnVtN3lyQjBPMk9KMG1oTTdISDdZNlRFZ1RfVG9rZW46SE9ycGJWUVFrbzhGVG94TXJFSmNvRmdRbmlkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](image/erciyuan.png)
 
 点击复制，然后确认，跳转到编排页面
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=YTdjYjI2MTVkNmNkZTMwNDUwOTM3MDJhNTJmNDRhNGFfODRxUEliZmtJa2phVjRaZnVoUTVwVXBKUHA3MXhyQmdfVG9rZW46QzJzSWJDcDR5b0NQUEN4clVHYWN1NlVQbkFiXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](image/2.gif)
 
 ### **Step 3：预览与对话（获得即时反馈）**
 
 打一下招呼（会发出声音，注意静音～）
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=MGE2MzE4ZGVmMWIzYzZhOWJmY2I5ZjI4ZDFiMzQ4ODFfM0tKTGJoelk0NjFJZlk5QlYxZ2R0NGkzSXJoQTROWG5fVG9rZW46WTA2VmI0d1pYbzZtNzl4dUhJU2NUOVp5bnpjXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](image/1.1.3.png)
 
 ### **Step 4：换个 "人设" 看看（首次自定义）**
 
@@ -113,11 +104,14 @@
 
 2. 选择大模型节点
 
-3. 在系统提示词处，使用 AI 修改 "人设描述"为星座助手：
+3. 在系统提示词处，使用 AI 修改 "人设描述"为星座助手：  
+```
+修改人设为：一位神秘的星座大师，精通塔罗牌和星象学。
+回答要充满神秘感，使用一些占星术语，同时给出实用的生活建议。
+说话风格要像一位经验丰富的占星师，语气深沉而富有智慧。
+```  
 
-4. 点击下面工具栏的“试运行”，开始测试
-
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDYzODIyZjlmOGRiOTNhN2U2MTdjNjhkNTBhMGFmNDZfUGtidk5YajdHZVJIeURsUHhEZDh2eXdNZWZLUGhBc2lfVG9rZW46UHZLNGIyWnUxb1lBaWF4U1ozYWNFN25xbjdlXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](image/3.gif)
 
 ## 1.3 **认知：初识你的创作平台 ——Coze**
 
@@ -153,7 +147,7 @@ Coze 是一个**可视化 AI 应用开发平台**。就像拼乐高一样，你�
 
 我们直接来看一个已经完善的关于金融知识问答的工作流 ：
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=NDU1MDI4MzU1NDNmYzgwZjAyOTY0ZWQ1YjY2YzViOWVfZ2RYSW43eE9wQVFjUk8zTzBKOGlmUDBpOGJ2bWl6NndfVG9rZW46S2psU2JGSXVsb1N4dnB4Z3RGcGNycUZlbnpjXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](image/workfolw.png)
 
 由此可以看出工作流具有以下几个**特点**：
 
@@ -179,7 +173,7 @@ Coze 是一个**可视化 AI 应用开发平台**。就像拼乐高一样，你�
 
 老样子，直接上原理图：
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=MmJhZTYxYjc1NzM3OWQ4NjI3ZDVmYzc4MjAzZWVlMTNfbE5Kc240SEl5NGFSYjYzaTdSV1prT29sVnFERHdEM2lfVG9rZW46QmlzRWJsZnRHb3Rxc2l4Tm5NdWNKTExrbm9iXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](image/agent.png)
 
 由此可以看出Agent具有以下几个**特点**：
 
@@ -203,7 +197,8 @@ Coze 是一个**可视化 AI 应用开发平台**。就像拼乐高一样，你�
 
 #### Agent和工作流各自的特点和区别 &#x20;
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=ODVhNWQwNzM5MzViMTdmZDYyZWMxMWI4OTA0Yzk4MjNfN2NuZVQ4VzQxVTlGRUtoWEkyRFZueWM3NmxCR01lazdfVG9rZW46Vm9TSGJGcjJWbzNjd3l4UXVaWGNuUDlkbmpkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](image/agent&workflow.png)  
+![](image/different_between_Agent_and_workflow.png)
 
 **简单说，** 工作流是全局的，智能体是局部的。
 
@@ -229,7 +224,7 @@ Coze 是一个**可视化 AI 应用开发平台**。就像拼乐高一样，你�
 
 当然这两点特征还不够，为了更好的理解，我们直接上实例：
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=YTc3MGE5ZmQ5NWVkMWMxZGFjNjI4ZDlmNzg4NGEzNGFfeGhNMjRscEtlRlRmVHFtVWpheGFsbVZzMUIwWk5uZ0hfVG9rZW46T1NXbWI5WGl2bzZ6Skx4bDJPSmNhcUhPbkNoXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](image/deepseek.png)
 
 **用户问DS R1自己是否是LLM，而且可知用户用了不同的话问了好几遍**
 
@@ -255,7 +250,7 @@ Coze 是一个**可视化 AI 应用开发平台**。就像拼乐高一样，你�
 
 我们直接问问ChatGPT是如何看待DeepSeekR1的：
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=NTE5ZDRkYWEzYjYyNjM1ZmNkZGFmODRiZjE5NzM2OTVfU05YaWxTUGx3RWVJaUEyTW8xM2pibkpoNjRUUlZ3ZzdfVG9rZW46SmtZSGJnUlk0b0NwYTZ4ZFltSGNGeHVGbnJkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](image/ChatGPT.png)
 
 **用户问ChatGPT对于LLM和DS R1是否是LLM后的输出**
 
@@ -275,7 +270,7 @@ Coze 是一个**可视化 AI 应用开发平台**。就像拼乐高一样，你�
 
 
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=NDA4MzgzMTRmZWQwMzMzOTllM2VlZjI3YjNiOGQ3ZDhfSml4bHNTRU9sQXNHZFFlM3hLYXZQQW9mUzV1NUh6c0pfVG9rZW46QTdlR2JWYUZ0b1ZoUDl4THRYV2NpMXc3bkxoXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](image/GPT2.png)
 
 **ChatGPT的自我介绍**
 
@@ -291,7 +286,7 @@ Coze 是一个**可视化 AI 应用开发平台**。就像拼乐高一样，你�
 
 如何理解呢？老样子上实例：
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjhiYmZkOWIxZjY5MmI5YjgzY2ZiZGRlNTQzMGJlNTRfOVk3YWxHZk0zMjRQTTBaUll2ZHFjUnJINjgxU1h3bHVfVG9rZW46RGlSMWJ1MENwb3lpeDZ4VlRVZGNGSjNYblFoXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](image/Agent+workflow.png)
 
 这张图很明白，再结合上述对于Agent和LLM的解释，可以得出：
 
@@ -345,10 +340,7 @@ Coze 是一个**可视化 AI 应用开发平台**。就像拼乐高一样，你�
 
 **微信蹲蹲群**
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2EzNTBmMDUzZjNiNjA3NjZiNmU5NzFlZjVlNjBhNmJfeUw4Nlp2cTUySUZKbFI3bjBPQ3pBemNkUEVRUmFzM0VfVG9rZW46QlpqS2JnZlB5b1M3Q1d4VDNtUmM0RUEzblNmXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
-
-**飞书交流群**
-
+![](image/weixinqun.jpg)
 
 
 ## 1.5&#x20;**&#x20;本章任务与总结**
