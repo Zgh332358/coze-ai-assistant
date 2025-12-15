@@ -1,208 +1,380 @@
-#  **第 1 章 了解 AI 工作流** 
 
-## 什么是工作流？
+> 版本：v3.0
+>
+> 贡献者： &#x20;
+>
+> 历史版本：
+>
+> * v1.0：[ 第 1 章 了解 AI 工作流](https://zxdwhda-share.feishu.cn/wiki/COoOwq7hPi6lUPk3TROcgs0Pnke?edition_id=6MECTp)
+>
+> * v2.0：[ 第 1 章 了解 AI 工作流](https://zxdwhda-share.feishu.cn/wiki/COoOwq7hPi6lUPk3TROcgs0Pnke?edition_id=ax5Q9l)
+>
+> * v2.1：[ 第 1 章 了解 AI 工作流](https://zxdwhda-share.feishu.cn/wiki/COoOwq7hPi6lUPk3TROcgs0Pnke?edition_id=huzE7f)
+
+# 1. 即刻体验：你的第一个 AI 伙伴
+
+> **本章目标：忘掉所有复杂概念，在 10 分钟内，亲手创造一个能与你对话的 AI 助手，感受 Coze 的魅力。**
+
+## 1.1 **启程：看看别人用 Coze 做了什么？**
+
+### 1.1.1 **案例瞬间：**
+
+让我们先看看几个用 Coze 快速搭建的有趣 AI 应用：
+
+#### **案例一：请假助手**
+
+* 场景一：查询自己请假记录并修改；
+
+* 场景二：查询下属请假记录；
+
+* 场景三：查询请假制度；
+
+* 场景四：发起请假申请
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2EwZGU3ZDhhNWRjM2M5ZDE2NGM5ZTRjZjIyMDkwMjdfNkFZZVVOQ3FTM0tQTTlSejUzYk5lUGRWdFdKQ2RWRTFfVG9rZW46UnJEc2JaUjdnb3lRdUd4TEdLSmNEUGZEbjRmXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+* 案例信息：[ 【未完成】请假助手](https://zxdwhda-share.feishu.cn/wiki/JEVRwfMnJiNO5PkuB3ncIDHsnfK)
+
+#### **案例二：**&#x5C0F;红书制图工厂
+
+* 参考内容：https://www.coze.cn/open/docs/tutorial/zmm2ucnh?from=search
+
+* 输入：“养生”
+
+* 输出四张图片：
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=MmM4ZDhjMjBkNjc5MjhlN2RhZjdhMWZkMDhhNmZmMTZfS3pIRXBzTXhteVBuTG1ZZnJMR0JqR20yZ0RhVnVNYXJfVG9rZW46Wm13WGJaSlk3b05BSmt4dTBuMGNYek5OblJmXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=MTU1NWQ1MGQ0MDM3NzEyZTU5Mjc1ZmUxYWI3OWY4YWRfUVNUbXFMUlRHbkhwSzUxWGozNkw2d0pTMzF4dmpSdDFfVG9rZW46S09LdWJTU2tMb1NyZ0h4SU9IdGN1T3VmbnNkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDU3MWFiYjg3YzY3NDI0ODE3OGY3ODNiMDNiMzBiMGVfNWlYaGVkMzFWcmR3NkNtQzhSclVKV1lHZGNjWmpRVE9fVG9rZW46UElhYWIyR2ZNbzNTZHd4NFBjeWNMSDBqbnFkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDkxNWY4MTA5MGE0ZmFmZjQwNTkzZjA2NDY0ZDAzZjRfWFIxV3FlTXR2S1RTTUdUdTVBSnNmdGpMRE1KTU5UNmZfVG9rZW46SlRFRGJ2aU9Yb0MwZEx4RVQ4eWNlUlFNblpiXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+工作流明细：
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=OTkzN2Q5NzZhMmUyMmZiYWFlYmJlYmFjN2M4MGM0ZTlfY1VqRDZnOUZUak5FRjBMTU9KSFJxR014M3ZyeUttenRfVG9rZW46TDdlOGJmYnFzb2l2cDJ4Sm5YT2NIcENIbnRkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+#### **案例三：矩阵视频生成**
+
+代表视频：
+
+比如第二解读书籍爆款短视频，单个视频最高 20 多万的点赞，该博主通过两个角色对话的方式解读一本书的短视频形式，仅仅只用了 18 个作品获得了 19.5 万粉丝，45.9 万点赞。
+
+参考：https://www.xiaohongshu.com/user/profile/5a93b6c1e8ac2b38b024d9f4
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=NWU0YzZlYmI5ZDIxM2YzNjc1MmFmYmRhZGRlZDAzZWVfSlBsYVc4RmtSQ2hxTWRIaVhMcHU1VUw0a1RORnlxRkFfVG9rZW46WnRIUWJIU01ob0Fkck54QnVKSWNySlZhbnRkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+制作视频教程：
+
+[ 第 3 章 假如书籍会说话](https://zxdwhda-share.feishu.cn/wiki/NL28w0mMbiaA11k68YxcDlLAnYd)
+
+### 1.1.2 **核心预告：**
+
+> ## 这些应用，不需要一行代码。接下来课程学习，你将立即创建属于你的第一个智能体。
+
+## 1.2 **动手：10 分钟创建 "二次元陪伴聊天机器人"**
+
+### **Step 1：进入 Coze 的世界**
+
+首先，打开浏览器访问 Coze 官方网站：<https://www.coze.cn/home>
+
+如果你还没有账号，请先注册一个 Coze 账号。国内用户注册过程非常简单，只需要提供基本信息即可完成。
+
+### **Step 2：从 "模板" 开始，最快的方式**
+
+1. 登录后，点击页面侧边栏的**模板商店**
+
+2. 在模板商店中，打开**聊天陪伴**栏
+
+3. 点开“二次元陪伴-支配恶魔”
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=NzNjYjU2ODMyYzEzY2IwYzYwOGE2NTU2YzU1YmVjYWNfSmlvSm1ZbjN3cnk2QkxTVHd5U1NzUW0zUklDTmU0Y1dfVG9rZW46VDRLUmJQN0l3b1o0bUZ4UkhvaGNIUHR4bjdkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+挂断后进入第二张图片中的页面，点击复制右边
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=MjA0NDBkMmJiY2NmMTQ5MTA2ODI0Zjk1YTU5NWRiMWZfZTI3c3RvWkNuTURlS01qSk1ldXBWRzdabGw3R3BvZFVfVG9rZW46SUl6SmJ3SUx5bzl6U0F4bzRvSmNKSTNlbmJiXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTM4OWQxMGY3ZDVlMDY1Y2VkOGI0MWU3MjViYjMzNGNfTVFDclZQNnVtN3lyQjBPMk9KMG1oTTdISDdZNlRFZ1RfVG9rZW46SE9ycGJWUVFrbzhGVG94TXJFSmNvRmdRbmlkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+点击复制，然后确认，跳转到编排页面
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=YTdjYjI2MTVkNmNkZTMwNDUwOTM3MDJhNTJmNDRhNGFfODRxUEliZmtJa2phVjRaZnVoUTVwVXBKUHA3MXhyQmdfVG9rZW46QzJzSWJDcDR5b0NQUEN4clVHYWN1NlVQbkFiXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+### **Step 3：预览与对话（获得即时反馈）**
+
+打一下招呼（会发出声音，注意静音～）
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=MGE2MzE4ZGVmMWIzYzZhOWJmY2I5ZjI4ZDFiMzQ4ODFfM0tKTGJoelk0NjFJZlk5QlYxZ2R0NGkzSXJoQTROWG5fVG9rZW46WTA2VmI0d1pYbzZtNzl4dUhJU2NUOVp5bnpjXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+### **Step 4：换个 "人设" 看看（首次自定义）**
+
+1. 点击进入对话流编排
+
+2. 选择大模型节点
+
+3. 在系统提示词处，使用 AI 修改 "人设描述"为星座助手：
+
+4. 点击下面工具栏的“试运行”，开始测试
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDYzODIyZjlmOGRiOTNhN2U2MTdjNjhkNTBhMGFmNDZfUGtidk5YajdHZVJIeURsUHhEZDh2eXdNZWZLUGhBc2lfVG9rZW46UHZLNGIyWnUxb1lBaWF4U1ozYWNFN25xbjdlXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+## 1.3 **认知：初识你的创作平台 ——Coze**
+
+### 1.3.1 **Coze 是什么？一句话说清楚**
+
+Coze 是一个**可视化 AI 应用开发平台**。就像拼乐高一样，你可以把 AI 能力（模型、知识、工具）**通过智能体和工作流组装**成智能应用，无需编写复杂代码。
+
+### 1.3.2 我们在 Coze 里主要做什么？
+
+#### **核心产品是 "智能体 （Bot）"**
+
+你刚刚创建的那个对话机器人，就是一个智能体。它是你与用户交互的 "界面" 和 "大脑"。
+
+#### **智能体的两大核心能力来源：**
+
+1. **LLM（大语言模型）**：智能体的 "基础脑"，负责理解和生成语言。
+
+   * LLM 就像智能体的大脑，能够理解用户的问题并生成自然语言回答
+
+   * 它具有强大的语言理解和生成能力，能够处理各种复杂的对话场景
+
+2. **插件 / 工作流 / 知识库**：智能体的 "扩展技能包"，让它能联网搜索、处理文件、记忆信息等。
+
+   * **插件**：就像手机 APP，为智能体增加特定功能
+
+   * **工作流**：处理复杂任务的标准化流程
+
+   * **知识库**：智能体的 "记忆库"，存储特定领域的专业知识
+
+### 1.3.3 （补充）LLM，智能体，工作流之间的关系？
+
+#### 什么是工作流？
+
+我们直接来看一个已经完善的关于金融知识问答的工作流 ：
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=NDU1MDI4MzU1NDNmYzgwZjAyOTY0ZWQ1YjY2YzViOWVfZ2RYSW43eE9wQVFjUk8zTzBKOGlmUDBpOGJ2bWl6NndfVG9rZW46S2psU2JGSXVsb1N4dnB4Z3RGcGNycUZlbnpjXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+由此可以看出工作流具有以下几个**特点**：
+
+1. **结构化流程**：工作流将复杂任务拆解成多个明确步骤，按顺序执行。
+
+2. **条件分支**：根据不同条件来选择不同路径，提高处理的灵活性和针对性。
+
+3. **模块化设计**：每一步（如意图识别、改写问题、搜索资料）是独立模块，便于维护和复用。
+
+4. **自动化执行**：整个过程自动运行，减少人工干预，提高效率。
+
+5. **多任务协作**：结合不同模型和工具（如基础模型、检索系统）协同完成任务。
+
+6. **反馈输出**：最终生成结果反馈给用户，形成闭环
+
+7. **可预测性**：说白了就是我能知道他后面会干什么
+
+“**工作流**是指一系列按照预定义规则和顺序执行的任务或步骤，通常用于描述业务流程或操作的结构化执行路径。它强调的是过程的**标准化**和**自动化**，确保任务按部就班地完成。”
 
 
 
-工作流（Workflow）是指完成一项任务或目标时，按照特定顺序进行的一系列活动或步骤。强调在计算机应用环境下的自动化。
+#### 什么是Agent智能体？
+
+老样子，直接上原理图：
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=MmJhZTYxYjc1NzM3OWQ4NjI3ZDVmYzc4MjAzZWVlMTNfbE5Kc240SEl5NGFSYjYzaTdSV1prT29sVnFERHdEM2lfVG9rZW46QmlzRWJsZnRHb3Rxc2l4Tm5NdWNKTExrbm9iXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+由此可以看出Agent具有以下几个**特点**：
+
+1. **感知能力：**&#x667A;能体能够感知或观察环境状态（流程图中的“观察”步骤），并获取任务完成的反馈信息。
+
+2. **自主决策：**&#x667A;能体具备自主规划能力（“计划”步骤），能够根据当前环境和任务要求制定执行方案。
+
+3. **执行能力：**&#x667A;能体能够根据计划执行相应动作（“执行”和“工具调用”步骤），并实际影响环境或完成任务。
+
+4. **反馈循环：**&#x667A;能体具有闭环反馈机制，会根据观察结果不断调整计划和执行，直到任务完成。
+
+5. **目标导向：**&#x667A;能体所有行为都是围绕完成特定的“任务输入”目标设计，体现出目的性和智能性。
 
 
 
- **工作流** 就像是一条流水线，把复杂的任务拆分成多个简单的步骤，每一步都有明确的目标和流程。
+综上，智能体的核心特点是**感知-决策-执行-反馈循环**的自主智能行为体系。
 
 
 
-```{img}
-:caption: 
-:frac: 100%
+根据上述实例以及总结的内容，我们可以从这几个方面来看Agent和工作流的区别：
 
-https://datawhale-business.oss-cn-hangzhou.aliyuncs.com/image/940191ba-aaa1-42ae-b815-e32bdfd68b4d.png
-```
+#### Agent和工作流各自的特点和区别 &#x20;
 
- **{color:#245bdb}`举例说明：`** 
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=ODVhNWQwNzM5MzViMTdmZDYyZWMxMWI4OTA0Yzk4MjNfN2NuZVQ4VzQxVTlGRUtoWEkyRFZueWM3NmxCR01lazdfVG9rZW46Vm9TSGJGcjJWbzNjd3l4UXVaWGNuUDlkbmpkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
 
- **包子铺** 的工作流是一个标准化、重复性的过程，适合用来展示工作流的特点。步骤包括：
-
-
-
-> **准备原料** ：采购和准备材料。
-> 
->  **和面** ：制作面团。
-> 
->  **制作馅料** ：准备馅料。
-> 
->  **制作包子皮：** 擀皮。
-> 
->  **包制包子** ：包好包子。
-> 
->  **蒸包子** ：蒸制包子。
-> 
->  **包装和销售** ：包装并销售。
-
-
-
-每个步骤都需要按顺序进行，重复执行，确保每个包子都符合标准。工作流的目标是通过规范化每一个步骤，确保高效、稳定地完成整个过程。
-
-
-
- **输入和输出的概念 【 较为重要 】** 
-
-
-
-在工作流中，上一步的输出通常是下一步的输入。例如，在“和面”步骤，面团来自于“准备原料”的输出，完成的面团则是下一步“擀包子皮”的输入。
-
-
-
-当你设计好“包子铺”工作流后，只需启动工作流，每个步骤将自动依序运行，直到包子全部制作完成。这样你可以将一个好的想法，通过工作流自动化地执行。
-
-
-
-## 为什么要用工作流？
-
-
-
-```{lark-callout}
-:bg: light-blue
-:bc: blue
-:icon: bulb
-
-在 AI 领域， AI 智能体（AI Agent）的概念很火，许多同学也尝试搭建了智能体。那么智能体和工作流的区别是什么， **为什么我们要使用工作流而非智能体呢？**
-```
-
-
-
-智能体和工作流的区别？
-
-
-
- **智能体（AI Agent）** 
-
-- **是什么** ：智能体是一个自动化的“助手”，用来执行特定任务。就像你设置一个闹钟，它帮你在指定时间提醒你。
-
-- **能做什么** ：它擅长做一些具体的、重复性的任务，比如客服聊天、推荐商品、处理订单等。
-
-- **缺点** ：它只能按照预先设定的规则和任务来做事，如果遇到超出范围的情况，它就不知道怎么办了。
-
-
-
- **工作流（Workflow）** 
-
-- **是什么** ：工作流是一系列任务的流程，决定了每个步骤应该做什么，就像一本操作指南，告诉你从头到尾要怎么做。
-
-- **能做什么** ：工作流可以处理一个完整的过程，比如从客户下单、付款到发货和售后服务，涵盖了所有步骤和环节。
-
-- **优点** ：它更灵活，能够适应变化。你可以调整步骤和规则来应对不同的情况，不需要一开始就固定下来。
-
-
-
- **区别总结** 
-
-- **智能体** 是特定任务的“助手”，用于局部执行任务。
-
-- **工作流** 是一个“计划”或“路线图”，指导整个任务的流程。
-
-
-
- **简单说，** 工作流是全局的，智能体是局部的。
-
-
+**简单说，** 工作流是全局的，智能体是局部的。
 
 在业务中，通常需要的是工作流而非单个智能体，因为整个业务流程设计至关重要。例如，在烹饪中，关键不在于使用多贵的锅，而是按步骤完成每道工序。
 
-
-
 因此，工作流才是解决问题的关键，它帮助优化思路、提升效率。设计好工作流才能大幅提升整体业务效率。
 
+因此我们需要辨别，有什么业务适合工作流？
 
+#### 什么是LLM？
 
-##  **什么样的业务适合工作流？** 
+##### **名词解释**
 
+首先我们要明确好一些名词的关系：
 
+**大语言模型 = 大模型 = LLM（Large Language Model）**
 
-适合工作流化的业务一般具备以下特点：
+我们单单从名词上就能知道LLM的两大最直接的特征:
 
-1. **重复性工作多** ：业务中的任务或流程高度重复。
+* **大**：参数量大
 
-2. **业务流程固定** ：步骤相对固定，且具有标准化的操作流程。
+* **语言**：输入和输出都是文本
 
+当然这两点特征还不够，为了更好的理解，我们直接上实例：
 
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=YTc3MGE5ZmQ5NWVkMWMxZGFjNjI4ZDlmNzg4NGEzNGFfeGhNMjRscEtlRlRmVHFtVWpheGFsbVZzMUIwWk5uZ0hfVG9rZW46T1NXbWI5WGl2bzZ6Skx4bDJPSmNhcUhPbkNoXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
 
-我们以一个自媒体工作者的日常来举例，自媒体工作者的日常任务包括更新内容、获取播放量、获得关注和客户线索。常见的工作流步骤如下：
-
-    1. 内容策划（市场调研 + 创意构思）
-
-    2. 内容创作（素材收集 + 内容制作）
-
-    3. 内容编辑（初步编辑 + 设计排版）
-
-    4. 内容审核
-
-    5. 内容发布
-
-    6. 互动 （RPA）
-
-    7. 效果分析和优化
+**用户问DS R1自己是否是LLM，而且可知用户用了不同的话问了好几遍**
 
 
 
-这个工作流具备了： **大量的重复性任务** （如内容创作、编辑、发布）和 **固定的业务流程** （如策划、创作、审核、发布）。通过 AI 来标准化这些步骤，并利用工具自动执行这些流程，就可以大大提高效率。
+##### 用户的角度
+
+这个是用户在对DeepSeek R1进行提问，Deepseek R1是大语言模型，因此我们可以由此可以从**用户的角度**总结出LLM的特点：
+
+* **连续对话记忆与上下文理解**：该模型能够理解用户的连续提问，并根据历史问答调整回答策略，比如关注用户为什么反复提问“你是大语言模型吗”。
+
+* **身份与背景确认**：模型能够针对用户多次确认，明确自身身份（大语言模型，基于DeepSeek技术），同时传达公司品牌信息。
+
+* **多次交互后的策略调整**：针对用户需求变化（反复确认、想测试回复多样性），模型调整回答策略并保持礼貌且专业的态度。
+
+* **辅助角色定位**：模型定位为智能助手，在帮助用户理解时，既展示技术能力，又强调协助用户解决问题，促进有效沟通。
+
+现在我们换一个角度，以**技术角度**去看待LLM：
 
 
 
-如果你是这位自媒体工作者，你会发现，你多出了更多的时间和精力去思考和创造。例如，你可以把时间放在创作高质量内容上，或者基于工作流之上有什么更好的变现方式，而不是天天想着什么时候蹭热点、怎么剪辑等琐事，因为琐事已经由工作流替你干完啦。它让你 **释放创造力，更专注核心业务。** 
+##### 技术的角度
+
+我们直接问问ChatGPT是如何看待DeepSeekR1的：
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=NTE5ZDRkYWEzYjYyNjM1ZmNkZGFmODRiZjE5NzM2OTVfU05YaWxTUGx3RWVJaUEyTW8xM2pibkpoNjRUUlZ3ZzdfVG9rZW46SmtZSGJnUlk0b0NwYTZ4ZFltSGNGeHVGbnJkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+**用户问ChatGPT对于LLM和DS R1是否是LLM后的输出**
 
 
 
-```{lark-callout}
-:bg: light-blue
-:bc: blue
-:icon: page_with_curl
+从ChatGPT的输出我们也不难总结DeepSeek R1是LLM的理由：
 
-**用老板心态大胆想象一下，把你目前赚钱手段 AI 工作流化外包给  AI，你接下来需要做什么？**
-```
+* **基于 Transformer 架构：**&#x44;eepSeek R1 采用了 Transformer 架构，这是当前主流的大语言模型（如 GPT、LLaMA、Qwen 等）所使用的基础架构。
 
+* **具备语言理解与生成能力：**&#x5B83;能够处理多种自然语言处理任务，包括文本生成、问答、翻译、摘要、代码生成等，符合 LLM 的核心特征。
 
+* **采用大规模预训练和强化学习：**&#x44;eepSeek R1 通过大规模数据的预训练，并结合强化学习（RL）技术，提升了模型的推理能力和响应质量。
 
-##  **狭义工作流 VS 广义工作流** 
+* **引入“思维链”机制：**&#x8BE5;模型在训练过程中引入了“思维链”（Chain-of-Thought, CoT）机制，通过奖励模型在生成答案前展示推理过程，增强了模型的逻辑推理能力。
 
-
-
- **狭义工作流** ：解决单一环节或任务的自动化。
-
- **广义工作流** ：涵盖整个业务流程的自动化。
-
-
-一般来说，狭义的工作流是解决某个局部的场景，广义的则是解决整个业务流程的问题。
+* **开源与参数规模：**&#x44;eepSeek R1 提供了多个参数规模的模型版本（如 1.5B、7B、14B、70B），并以 MIT 许可证开源，方便研究和应用。
 
 
 
-用电商和自媒体两个领域来举例：
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=NDA4MzgzMTRmZWQwMzMzOTllM2VlZjI3YjNiOGQ3ZDhfSml4bHNTRU9sQXNHZFFlM3hLYXZQQW9mUzV1NUh6c0pfVG9rZW46QTdlR2JWYUZ0b1ZoUDl4THRYV2NpMXc3bkxoXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
 
-- **电商** 
-  
-  - **狭义** ：自动改写商品标题或详情。
-  
-  - **广义** ：从商品发布、上架到客服、发货全流程的自动化管理。
-  
-- **自媒体** 
-  
-  - **狭义** ：生成一篇公众号文章。
-  
-  - **广义** ：从账号登录、内容撰写、排版到发布和留言回复的全流程自动化。
-  
-
-
-广义工作流等同于业务流的自动化，通常还会涉及 RPA（机器人流程自动化）、知识库和 Python 等工具。
+**ChatGPT的自我介绍**
 
 
 
-```{lark-callout}
-:bg: light-blue
-:bc: blue
-:icon: cake
-
-工作流和游泳一样，看介绍会觉得枯燥，但一旦你根据自己的需要搭建完成工作流，且成功 RUN 起来，那种欣喜是无法言喻的。
-```
 
 
+#### Agent和LLM之间的关系
 
+既然我们都了解了LLM和Agent，我们不难理解他们之间的上下级关系，我们可以简单的理解为：
+
+**Agent = LLM+其他**
+
+如何理解呢？老样子上实例：
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjhiYmZkOWIxZjY5MmI5YjgzY2ZiZGRlNTQzMGJlNTRfOVk3YWxHZk0zMjRQTTBaUll2ZHFjUnJINjgxU1h3bHVfVG9rZW46RGlSMWJ1MENwb3lpeDZ4VlRVZGNGSjNYblFoXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+这张图很明白，再结合上述对于Agent和LLM的解释，可以得出：
+
+1. **LLM是Agent的核心推理引擎**：Agent接受用户输入的问题（如“北京明天天气怎么样？”），首先交给LLM进行思考（①思考）。
+
+2. **LLM根据思考生成行动方案**：包括选择合适的工具（②选择工具）和构造调用该工具的输入（③构造输入）。
+
+3. **Agent调用工具集（Tools Set）完成实际操作**：例如获取天气数据，工具集返回观察结果（④获得结果）给LLM。
+
+4. **LLM整合观察结果形成最终答案**：最后由Agent输出结果（比如“天气晴朗，微风”）给用户。
+
+总结来说，**LLM在Agent中承担思考与决策角色，Agent则利用LLM的推理能力结合外部工具，形成一个闭环的智能系统，实现更复杂、更实际的问题解决能力**。
+
+这种模式体现了LLM与Agent的**有机结合与互补关系**。
+
+
+
+## 1.4 **准备：开始正式学习前**
+
+### 1.4.1 **必备条件**
+
+* **一个 Coze 账号**（已完成）
+
+* **开放的心态和好奇心**
+
+* **基本的电脑操作能力**
+
+* **对 AI 技术的兴趣**
+
+### 1.4.2 **如何获取帮助**
+
+#### **遇到操作问题：**
+
+优先查看本章及后续章节的 "实操步骤" 和配图。
+
+#### **遇到概念问题：**
+
+回顾文中 "核心认知点" 解释框。
+
+#### **社区与资源 （动态更新链接）：**
+
+* **本教程附录的 "常见问题 FAQ"**
+
+* **Coze 官方文档**：<https://www.coze.cn/docs/guides/welcome>
+
+* **学习交流群**：关注 Coze 官方公众号获取最新群码
+
+* **视频教程**：Coze 官方 B 站账号和 YouTube 频道
+
+对于**教程学习**上的问题，可以看一下本教程的**第 7 章 常见问题或者进入蹲蹲群进行提问**，如果是 Coze 相关的问题，详细可见官方的**常见问题 FAQ**。
+
+**微信蹲蹲群**
+
+![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2EzNTBmMDUzZjNiNjA3NjZiNmU5NzFlZjVlNjBhNmJfeUw4Nlp2cTUySUZKbFI3bjBPQ3pBemNkUEVRUmFzM0VfVG9rZW46QlpqS2JnZlB5b1M3Q1d4VDNtUmM0RUEzblNmXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+
+**飞书交流群**
+
+
+
+## 1.5&#x20;**&#x20;本章任务与总结**
+
+### **任务：**
+
+1. **成功创建一个智能体**（使用模板或自由发挥）并与它对话。
+
+   * 可以是星座运势助手或者任何你感兴趣的主题
+
+2. **尝试修改其 "人设" 描述，并观察变化。**
+
+   * 改变智能体的性格、专业领域或说话风格
+
+   * 对比修改前后的对话效果
+
+### **总结：**
+
+* **你已经迈出了第一步：创建并体验了智能体。**
+
+* **你理解了最核心的关系：智能体是 "应用"，工作流是它的 "精密工具"。**
+
+* **你已经知道，通过简单的提示词就能指挥 AI。**
+
+* **准备好，下一章我们将深入这个 "智能体" 的内部，学习如何从头开始定制它！**
+
+***
+
+**恭喜你完成了第一章的学习！**&#x4F60;已经成功创建了自己的第一个 AI 助手，这是一个很棒的开始。在下一章中，我们将深入了解智能体的内部结构，学习如何定制更复杂的 AI 应用。
