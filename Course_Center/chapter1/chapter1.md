@@ -63,7 +63,7 @@
 
 参考：https://www.xiaohongshu.com/user/profile/5a93b6c1e8ac2b38b024d9f4
 
-![](https://zxdwhda-share.feishu.cn/space/api/box/stream/download/asynccode/?code=NWU0YzZlYmI5ZDIxM2YzNjc1MmFmYmRhZGRlZDAzZWVfSlBsYVc4RmtSQ2hxTWRIaVhMcHU1VUw0a1RORnlxRkFfVG9rZW46WnRIUWJIU01ob0Fkck54QnVKSWNySlZhbnRkXzE3NjU4MDIyMDM6MTc2NTgwNTgwM19WNA)
+![](/Course_Center/chapter1/image/1.gif)
 
 制作视频教程：
 
